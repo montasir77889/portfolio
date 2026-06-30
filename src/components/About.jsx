@@ -3,34 +3,40 @@ function About() {
     <section className="about" id="about">
       <h2>About Me</h2>
 
-      <p>
-        I'm a Computer Science graduate from BRAC University with hands-on experience in Machine Learning, Deep Learning, and Computer
-        Vision. Skilled in designing and evaluating image classification, object detection, and image segmentation models using PyTorch,
-        TensorFlow, OpenCV, and modern deep learning architectures. Experienced in AI research, model evaluation, and full-stack
-        application development. Seeking opportunities in AI/ML Engineering, Computer Vision, and Research.
-
+      <p className="about-intro">
+        I am a Computer Science graduate from BRAC University with a passion
+        for Artificial Intelligence, Machine Learning, Deep Learning and
+        Computer Vision. My research focuses on image classification,
+        object detection, image segmentation and intelligent systems for
+        real-world applications.
       </p>
 
       <div className="about-grid">
 
         <div className="about-card">
-          <h3>Education</h3>
+          <h3>🤖 AI & Machine Learning</h3>
+
           <p>
-            B.Sc. in Computer Science
+            Experience with PyTorch, TensorFlow, OpenCV,
+            CNNs, YOLO, ResNet, MobileNet and U-Net.
           </p>
         </div>
 
         <div className="about-card">
-          <h3>Experience</h3>
+          <h3>🔬 Research</h3>
+
           <p>
-            Building web applications using React and Node.js.
+            Presented BE-KNN at the QPAIN Conference and currently working on
+            Shrimp Disease Detection using Deep Learning.
           </p>
         </div>
 
         <div className="about-card">
-          <h3>Goal</h3>
+          <h3>💻 Full Stack Development</h3>
+
           <p>
-            Become a professional Full Stack Developer and contribute to impactful projects.
+            Built MERN stack applications using React,
+            Node.js, Express and MongoDB.
           </p>
         </div>
 

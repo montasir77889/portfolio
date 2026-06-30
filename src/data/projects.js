@@ -1,24 +1,64 @@
 const projects = [
   {
     title: "Portfolio Website",
-    description: "A personal portfolio built with React and Vite.",
-    tech: "React • CSS • Vite",
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.vercel.app"
+    description:
+      "A modern responsive portfolio built with React, Vite, Framer Motion and a light/dark theme.",
+
+    technologies: [
+      "React",
+      "Vite",
+      "CSS",
+      "Framer Motion",
+    ],
+
+    github: "https://github.com/montasir77889/portfolio",
+
+    demo: "https://portfolio-eta-gilt-15.vercel.app",
+
+    featured: true,
   },
+
   {
     title: "Candle Shop Web Application",
-    description: "Built e-commerce platform with authentication, cart, and admin features.",
-    tech: "HTML•Tailwind • Node.js •Express.js • MongoDB",
-    github: "https://github.com/montasir77889/candleshop" 
+
+    description:
+      "A full-stack e-commerce platform featuring authentication, shopping cart, admin dashboard and order management.",
+
+    technologies: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind",
+      "JavaScript",
+    ],
+
+    github: "https://github.com/montasir77889/candleshop",
+
+    demo: "#",
+
+    featured: false,
   },
+
   {
     title: "AI Translator",
-    description: "Simple task management application.",
-    tech: "HTML • CSS • Java Script • Node.js • Express.js • Translation API",
+
+    description:
+      "A language translation web application powered by Translation APIs with a clean responsive UI.",
+
+    technologies: [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "HTML",
+      "CSS",
+    ],
+
     github: "https://github.com/montasir77889/ai-language-translator",
-    live: "https://task-manager.vercel.app"
-  }
+
+    demo: "#",
+
+    featured: false,
+  },
 ];
 
 export default projects;

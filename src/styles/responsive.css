@@ -1,0 +1,97 @@
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 280px;
+    height: 280px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .typing {
+    font-size: 22px;
+  }
+
+  .skills,
+  .projects,
+  .about,
+  .education,
+  .contact,
+  .publications,
+  .certificates {
+    padding: 70px 20px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .footer-icons {
+    gap: 15px;
+  }
+
+}

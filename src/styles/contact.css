@@ -1,0 +1,171 @@
+/* =========================
+   CONTACT
+========================= */
+
+.contact{
+    padding:90px 8%;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:42px;
+    margin-bottom:20px;
+    color:var(--text);
+}
+
+.contact-text{
+    max-width:700px;
+    margin:0 auto 50px;
+    line-height:1.9;
+    font-size:17px;
+    color:var(--text2);
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    margin-bottom:50px;
+}
+
+.contact-card{
+
+    position:relative;
+    overflow:hidden;
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-10px) scale(1.02);
+
+    border-color:var(--primary);
+
+}
+
+/* Light Sweep Animation */
+
+.contact-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:-100%;
+
+    width:100%;
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.08),
+        transparent
+    );
+
+    transition:.8s;
+
+}
+
+.contact-card:hover::before{
+
+    left:100%;
+
+}
+
+.contact-card h3{
+
+    color:var(--primary);
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.contact-card p{
+
+    color:var(--text2);
+
+    line-height:1.8;
+
+}
+
+.contact-card a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.contact-card a:hover{
+
+    color:var(--text);
+
+}
+
+.contact .primary-btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-top:20px;
+
+    padding:14px 30px;
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+.contact{
+
+padding:80px 20px;
+
+}
+
+.contact h2{
+
+font-size:34px;
+
+}
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+gap:20px;
+
+}
+
+.contact-card{
+
+padding:25px;
+
+}
+
+}
